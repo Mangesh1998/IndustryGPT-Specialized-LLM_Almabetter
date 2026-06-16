@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronicles of India - History NCERT Chatbot</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand-section">
+                <div class="brand-logo">
+                    <i class="fa-solid fa-scroll"></i>
+                </div>
+                <div class="brand-name">
+                    <h1>Chronicles</h1>
+                    <span>of India</span>
+                </div>
+            </div>
+            
+            <nav class="nav-menu">
+                <button class="nav-btn active" id="btn-chat" onclick="switchTab('chat')">
+                    <i class="fa-solid fa-comments"></i>
+                    <span>Tutor Chat</span>
+                </button>
+                <button class="nav-btn" id="btn-timeline" onclick="switchTab('timeline')">
+                    <i class="fa-solid fa-timeline"></i>
+                    <span>Timeline Map</span>
+                </button>
+                <button class="nav-btn" id="btn-quiz" onclick="switchTab('quiz')">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>NCERT Quiz</span>
+                </button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <span class="status-dot pulsing" id="status-dot"></span>
+                    <span class="status-text" id="status-text">Loading Model...</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            
+            <!-- CHAT VIEW -->
+            <section id="view-chat" class="view-section active">
+                <header class="view-header">
+                    <div class="header-info">
+                        <h2>History NCERT Tutor</h2>
+                        <p>Ask anything about Ancient, Medieval, and Modern Indian History</p>
+                    </div>
+                    <div class="tts-config">
+                        <button class="action-btn" id="btn-tts-toggle" onclick="toggleGlobalTTS()" title="Mute/Unmute speech synthesis">
+                            <i class="fa-solid fa-volume-high"></i>
+                        </button>
+                    </div>
+                </header>
+
+                <div class="chat-container">
+                    <!-- Message Area -->
+                    <div class="message-area" id="message-area">
+                        <!-- Welcome message -->
+                        <div class="message bot-message">
+                            <div class="avatar">
+                                <i class="fa-solid fa-building-columns"></i>
+                            </div>
+                            <div class="message-content">
+                                <div class="message-header">
+                                    <span class="sender-name">Chronicles of India Bot</span>
+                                    <span class="timestamp">System</span>
+                                </div>
+                                <p>Welcome, historian! I am your AI study companion trained on the **History NCERT curriculum (Class 6-12)**. You can ask me questions about Harappa, Delhi Sultanate, Mughals, the Revolt of 1857, or Mahatma Gandhi's movements.</p>
+                                <p>Try clicking one of the suggested topics below, or use the **Timeline Map** and **NCERT Quiz** tabs on the left to explore!</p>
+                                
+                                <div class="suggested-chips">
+                                    <button class="chip" onclick="sendSuggested('Tell me about the town planning in Harappan Civilisation')">Harappan Planning</button>
+                                    <button class="chip" onclick="sendSuggested('What is the Mansabdari system in the Mughal Empire?')">Mughal Mansabdari</button>
+                                    <button class="chip" onclick="sendSuggested('What was the immediate cause and leaders of the Revolt of 1857?')">Revolt of 1857</button>
+                                    <button class="chip" onclick="sendSuggested('Explain the Salt March led by Mahatma Gandhi in 1930')">1930 Salt March</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Input Bar -->
+                    <div class="input-container">
+                        <div class="input-wrapper">
+                            <textarea id="chat-input" placeholder="Ask an NCERT history question..." rows="1" onkeydown="handleEnter(event)"></textarea>
+                            <button id="btn-send" onclick="sendMessage()">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TIMELINE VIEW -->
+            <section id="view-timeline" class="view-section">
+                <header class="view-header">
+                    <div class="header-info">
+                        <h2>Chronological Map of India</h2>
+                        <p>Explore major historical epochs from NCERT syllabus. Click on any event to query the tutor bot.</p>
+                    </div>
+                </header>
+                
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-list" id="timeline-list">
+                        <!-- Loaded dynamically via JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- QUIZ VIEW -->
+            <section id="view-quiz" class="view-section">
+                <header class="view-header">
+                    <div class="header-info">
+                        <h2>NCERT History Practice Arena</h2>
+                        <p>Test your knowledge on NCERT history concepts and board-style questions.</p>
+                    </div>
+                </header>
+
+                <div class="quiz-container">
+                    <!-- Start Quiz Screen -->
+                    <div id="quiz-start" class="quiz-card active">
+                        <div class="quiz-badge"><i class="fa-solid fa-award"></i></div>
+                        <h3>Are you ready to challenge yourself?</h3>
+                        <p>You will be given **5 randomly selected questions** based on Class 6-12 History NCERT textbooks. Each correct answer builds your score and provides a detailed explanation.</p>
+                        <button class="primary-btn" onclick="startQuiz()">Start Quiz Campaign</button>
+                    </div>
+
+                    <!-- Question Screen -->
+                    <div id="quiz-question-card" class="quiz-card">
+                        <div class="quiz-progress">
+                            <span id="quiz-progress-text">Question 1 of 5</span>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" id="quiz-progress-fill" style="width: 20%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="question-text" id="quiz-question-text">
+                            Loading Question...
+                        </div>
+
+                        <div class="quiz-options" id="quiz-options-container">
+                            <!-- Options rendered dynamically -->
+                        </div>
+
+                        <div class="quiz-explanation-box" id="quiz-explanation-box">
+                            <h5><i class="fa-solid fa-circle-info"></i> NCERT Explanation</h5>
+                            <p id="quiz-explanation-text">Explanation content goes here.</p>
+                        </div>
+
+                        <div class="quiz-actions">
+                            <button class="primary-btn" id="btn-quiz-next" onclick="nextQuestion()" disabled>Next Question <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- End Screen -->
+                    <div id="quiz-end" class="quiz-card">
+                        <div class="quiz-badge score-badge"><i class="fa-solid fa-trophy"></i></div>
+                        <h3>Campaign Finished!</h3>
+                        <p class="final-score-text">Your Final Score: <strong id="quiz-final-score">0 / 5</strong></p>
+                        <p id="quiz-evaluation-message">Keep studying the NCERT books to improve your knowledge!</p>
+                        <div class="quiz-actions" style="margin-top: 2rem;">
+                            <button class="primary-btn" onclick="startQuiz()">Play Again</button>
+                            <button class="secondary-btn" onclick="switchTab('chat')">Return to Chat</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <!-- Custom JS -->
+    <script src="/static/app.js"></script>
+</body>
+</html>
