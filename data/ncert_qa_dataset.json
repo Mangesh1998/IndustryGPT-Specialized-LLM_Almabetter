@@ -1,0 +1,142 @@
+[
+    {
+        "instruction": "Explain the features of the town planning and drainage system in the Harappan Civilisation.",
+        "input": "",
+        "output": "The Harappan cities were characterised by carefully planned grid-pattern roads and streets that intersected at right angles. The streets with drains were laid out first, followed by the houses. Every house was connected directly to the street drains, which were covered with loose brick slabs that could be removed for cleaning. Houses featured courtyard-centered layouts, and bathrooms had drains running directly into the street."
+    },
+    {
+        "instruction": "What were the main craft activities in the Harappan Civilisation and where did they source materials from?",
+        "input": "",
+        "output": "Craft activities in the Harappan Civilisation included bead-making, shell-cutting, metal-working, seal-making, and weight-making. Chanhudaro was a prominent settlement dedicated exclusively to crafts. Beads were crafted from stones like carnelian, jasper, crystal, quartz, and steatite, and metals like copper, bronze, gold, and silver. For raw materials, Harappans traded long distances: copper was sourced from Khetri in Rajasthan and Oman, gold from South India, and lapis lazuli from Shortughai in Afghanistan."
+    },
+    {
+        "instruction": "Describe the features and purpose of the Great Bath in Mohenjodaro.",
+        "input": "",
+        "output": "The Great Bath was a large rectangular tank situated in the Citadel of Mohenjodaro, surrounded by corridors on all four sides. It was made watertight using bricks set on edge with a gypsum mortar. Steps led into the tank from the north and south, and it was surrounded by rooms, one of which housed a large well. Water was drained out of the tank via a massive brick channel. The Great Bath was likely used for special ritual bathing."
+    },
+    {
+        "instruction": "Why did Magadha become the most powerful Mahajanapada between the 6th and 4th centuries BCE?",
+        "input": "",
+        "output": "Magadha's rise to power was driven by multiple factors: 1. Exceptional agricultural productivity in the region. 2. Rich iron ore mines (in modern Jharkhand) that provided materials for strong weapons and tools. 3. Forests containing elephants, which were captured and trained for the army. 4. Strategic capitals at Rajagaha (Rajgir), which was fortified, and later Pataliputra (Patna) situated along the Ganga river route."
+    },
+    {
+        "instruction": "What was Ashoka's policy of Dhamma?",
+        "input": "",
+        "output": "Formulated by Emperor Ashoka of the Mauryan Empire, Dhamma was a set of ethical principles to promote social harmony. It advocated: respect towards elders; generosity towards Brahmanas, ascetics, and the poor; kind treatment of slaves and servants; and religious tolerance. Ashoka inscribed these principles on stone pillars throughout his empire and appointed special officers called 'Dhamma Mahamattas' to propagate them."
+    },
+    {
+        "instruction": "How do historians reconstruct the history of the Gupta Empire? Explain with reference to Prashastis.",
+        "input": "",
+        "output": "Historians reconstruct Gupta history using coins, inscriptions, texts, and Prashastis (court eulogies written in praise of kings). A key example is the Prayaga Prashasti (Allahabad Pillar Inscription), composed in Sanskrit by Harishena, the court poet of Emperor Samudragupta. This text outlines the king's military conquests, exceptional virtues, intelligence, and describes him as equal to deities, providing rich details about the administrative and political structure."
+    },
+    {
+        "instruction": "What was the Varna system according to Brahmanical texts like Manusmriti?",
+        "input": "",
+        "output": "The Varna system divided society into four hierarchical groups with defined duties: 1. Brahmanas (priests and teachers, who studied/taught Vedas). 2. Kshatriyas (rulers and warriors, who protected people). 3. Vaishyas (cultivators, herders, and traders). 4. Shudras (assigned to serve the three higher varnas). Brahmanical texts like the Manusmriti (compiled c. 200 BCE - 200 CE) enforced these rules and also designated 'untouchables' (Chandalas) to perform polluting tasks like handling corpses."
+    },
+    {
+        "instruction": "What are the core teachings of Buddhism regarding the nature of the world?",
+        "input": "",
+        "output": "According to the Buddha's teachings: 1. The world is transient (anicca) and constantly changing. 2. The world is soulless (anatta), meaning there is nothing permanent or eternal. 3. Sorrow (dukkha) is intrinsic to human existence. 4. Humans can overcome sorrow by following the 'Middle Path' (avoiding extreme penance and self-indulgence) and practicing righteous action (karma) to break the cycle of rebirth and attain Nibbana."
+    },
+    {
+        "instruction": "How was the Sanchi Stupa preserved in the 19th century and who funded it?",
+        "input": "",
+        "output": "In the 19th century, Sanchi Stupa was preserved in situ through the efforts and funding of the Begums of Bhopal (Shahjehan Begum and her successor Sultan Jehan Begum). While Europeans wanted to take the eastern gateway to display in museums in Paris or London, the rulers provided financial support to make plaster-of-paris copies for them, built a museum and a guesthouse at the site, and funded archaeological research, preventing the monument from being looted."
+    },
+    {
+        "instruction": "Explain the Iqta system under the Delhi Sultanate.",
+        "input": "",
+        "output": "The Iqta system was an administrative system where the Delhi Sultans (such as Iltutmish and Alauddin Khalji) divided their empire into territories called 'iqtas' and assigned them to military commanders. These commanders, known as iqtadars or muqtis, were responsible for leading military campaigns, maintaining law and order in their assigned regions, and collecting land revenue. From the revenue collected, they paid their soldiers and drew their own salaries."
+    },
+    {
+        "instruction": "Describe the market and price control reforms introduced by Alauddin Khalji.",
+        "input": "",
+        "output": "To maintain a large standing army, Alauddin Khalji fixed the prices of essential commodities like food grains, oil, sugar, and cloth in Delhi. Merchants had to register with the state, and hoarding or selling below weight was severely punished. The market superintendent (Shahna-i-Mandi) monitored transactions daily. He also reformed the land revenue system by introducing land measurement and collecting tax directly in cash, bypassing local chieftains."
+    },
+    {
+        "instruction": "Explain the Mansabdari system of the Mughal Empire.",
+        "input": "",
+        "output": "The Mansabdari system was a grading system used by the Mughals to determine the rank, salary, and military responsibilities of nobles. Each noble held a 'mansab' (rank). Rank and salary were fixed by a numerical value called 'zat' (higher zat meant higher prestige and pay). The mansabdar was required to maintain a specific number of cavalrymen (sawar), bring them for registration and branding, and present them for military review."
+    },
+    {
+        "instruction": "What was the Zabt system in the Mughal Empire?",
+        "input": "",
+        "output": "The Zabt system was a land revenue administration system introduced during Akbar's reign by his revenue minister, Raja Todar Mal. It was based on a careful 10-year survey (1570–1580) of crop yields, prices, and cultivated areas. Tax was calculated on each crop and collected in cash. Provinces were divided into revenue circles with specific rates. This system was used in central parts of the empire where land could be measured and surveyed."
+    },
+    {
+        "instruction": "Describe the fortifications and features of the Vijayanagara Empire's capital.",
+        "input": "",
+        "output": "The capital city, Vijayanagara (Hampi), was situated in the Tungabhadra river basin. It was famous for being enclosed by seven lines of massive stone fortification walls. Uniquely, these walls enclosed not only the urban center but also agricultural fields, gardens, and forests, ensuring food supply during sieges. It featured a Royal Center containing the Mahanavami Dibba, a massive platform used by kings for rituals and festival performances."
+    },
+    {
+        "instruction": "Who was Krishna Deva Raya? What were his contributions to the Vijayanagara Empire?",
+        "input": "",
+        "output": "Krishna Deva Raya (r. 1509–1529) was the most famous ruler of the Vijayanagara Empire, belonging to the Tuluva dynasty. He consolidated and expanded the empire, built the majestic eastern gopuram of the Virupaksha Temple, and built the Vitthala Temple complex with its musical pillars and stone chariot. He also wrote literature, established the town of Nagalapuram, and adopted the title 'Hindu Suratrana' (Sultan among Hindu kings)."
+    },
+    {
+        "instruction": "What were the main characteristics of Sufism and the Chishti order in India?",
+        "input": "",
+        "output": "Sufism was a mystical Islamic movement focused on love, devotion, and compassion as paths to God, rejecting rigid rituals. Sufis organized into orders (silsilas). The Chishti silsila, founded in India by Khwaja Muinuddin Chishti in the 12th century, became highly popular. They integrated local practices, held musical gatherings (Sama) to induce spiritual ecstasy, and lived in communal hospices (Khanqahs) open to all classes and religions."
+    },
+    {
+        "instruction": "Describe the teachings of Kabir and the collections in which his verses are preserved.",
+        "input": "",
+        "output": "Kabir (14th-15th century) rejected orthodox religious rituals, caste distinctions, and idol worship. He preached Nirguna Bhakti, devotion to a formless supreme god whom he called Allah, Ram, or Hari, using everyday regional language. His verses are preserved in three major collections: the Kabir Bijak (in Bihar/UP), the Kabir Granthavali (in Rajasthan), and the Adi Granth Sahib (the holy scripture of Sikhism)."
+    },
+    {
+        "instruction": "How did Robert Clive win the Battle of Plassey in 1757?",
+        "input": "",
+        "output": "Robert Clive, representing the British East India Company, defeated Nawab Siraj-ud-Daulah of Bengal at the Battle of Plassey in 1757. Clive won by conspiring with Mir Jafar, the Nawab's commander-in-chief. Clive promised to make Mir Jafar the Nawab of Bengal in exchange for his non-participation. During the battle, Mir Jafar held back his forces, leading to Siraj-ud-Daulah's defeat and subsequent execution, establishing British control."
+    },
+    {
+        "instruction": "Explain the significance of the Battle of Buxar (1764) and the Treaty of Allahabad.",
+        "input": "",
+        "output": "The Battle of Buxar (1764) was fought between the British and the joint forces of Mir Qasim, Shuja-ud-Daulah (Awadh), and Mughal Emperor Shah Alam II. The British victory resulted in the Treaty of Allahabad (1765), under which the Mughal Emperor granted the Diwani rights (revenue collection rights) of Bengal, Bihar, and Orissa to the East India Company. This transformed the Company from a trading body into a territorial ruler with massive financial resources."
+    },
+    {
+        "instruction": "Compare the Subsidiary Alliance and the Doctrine of Lapse.",
+        "input": "",
+        "output": "Both were British annexation policies. Under the Subsidiary Alliance (introduced by Lord Wellesley), an Indian ruler had to disband his army, accept a British resident, and pay for British troops; failure led to territory annexation. Under the Doctrine of Lapse (introduced by Lord Dalhousie), if an Indian ruler died without a direct male heir, his kingdom was annexed and became part of British territory (e.g. Jhansi, Satara, Sambalpur)."
+    },
+    {
+        "instruction": "Describe the Permanent Settlement land revenue system of 1793.",
+        "input": "",
+        "output": "Introduced by Lord Cornwallis in Bengal in 1793, the Permanent Settlement fixed the land revenue permanently. Local rajas and taluqdars were recognized as Zamindars, responsible for collecting rent from peasants and paying a fixed share to the Company. Because the revenue was fixed extremely high, zamindars heavily exploited the peasants. Zamindars who failed to pay on time had their estates auctioned off by the British."
+    },
+    {
+        "instruction": "How did the Mahalwari and Ryotwari systems differ from the Permanent Settlement?",
+        "input": "",
+        "output": "Unlike the Permanent Settlement (where revenue was fixed permanently with Zamindars), the Mahalwari system (1822) assessed revenue on the entire village ('mahal') collectively and was revised periodically. The Ryotwari system (introduced by Thomas Munro in Southern India) bypassed Zamindars entirely, making revenue settlements directly with the cultivators ('ryots') based on detailed surveys of their fields, with rates revised periodically."
+    },
+    {
+        "instruction": "What were the immediate and deep-seated causes of the Revolt of 1857?",
+        "input": "",
+        "output": "The immediate cause of the Revolt of 1857 was the introduction of the Enfield Rifle, whose grease cartridges sepoys had to bite open; rumors spread they were greased with cow and pig fat, offending Hindu and Muslim sepoys. Deep-seated causes included Dalhousie's annexation policies (Doctrine of Lapse), the annexation of Awadh, high land revenue taxes that ruined peasants, the decline of local artisans due to British imports, and fears of forced Christian conversion."
+    },
+    {
+        "instruction": "Name the key leaders and centers of the Revolt of 1857.",
+        "input": "",
+        "output": "Key centers and leaders of the Revolt of 1857 included: Delhi, where sepoys proclaimed the Mughal Emperor Bahadur Shah Zafar as their symbol; Kanpur, led by Nana Sahib and Tantia Tope; Lucknow, led by Begum Hazrat Mahal and her son Birjis Qadr; Jhansi, led by Rani Lakshmibai, who fought on the battlefield; and Bihar (Jagdishpur), led by the elderly zamindar Kunwar Singh."
+    },
+    {
+        "instruction": "What was the Swadeshi Movement and what triggered it?",
+        "input": "",
+        "output": "The Swadeshi Movement (1905) was triggered by Viceroy Lord Curzon's partition of Bengal, which aimed to divide the center of Indian nationalism. The movement was led by leaders like Lal-Bal-Pal. It promoted self-reliance (Swadeshi) by boycotting foreign British goods, burning foreign cloth, and promoting indigenous schools, vernacular literature, and local enterprises like swadeshi textile mills."
+    },
+    {
+        "instruction": "Explain the causes and suspension of the Non-Cooperation Movement.",
+        "input": "",
+        "output": "Launched by Mahatma Gandhi in 1920, the Non-Cooperation Movement protested the Rowlatt Act, the Jallianwala Bagh Massacre, and supported the Khilafat cause. It urged boycotting government institutions, foreign cloth, and titles. In February 1922, a protest turned violent in Chauri Chaura, Gorakhpur, where a crowd burned down a police station, killing 22 officers. Adhering strictly to non-violence (Ahimsa), Gandhi suspended the movement immediately."
+    },
+    {
+        "instruction": "What was the Salt Satyagraha of 1930?",
+        "input": "",
+        "output": "The Salt Satyagraha was a protest led by Mahatma Gandhi against the British salt monopoly and salt tax. In March 1930, Gandhi and 78 followers marched 240 miles from Sabarmati Ashram to Dandi, Gujarat. On April 6, 1930, Gandhi manufactured salt by picking it up from the beach, breaking the law. This action launched the nation-wide Civil Disobedience Movement, which involved boycotts and non-payment of taxes."
+    },
+    {
+        "instruction": "Describe the Quit India Movement of 1942.",
+        "input": "",
+        "output": "Launched by Mahatma Gandhi in August 1942 during World War II, the Quit India Movement demanded an immediate British withdrawal from India. Gandhi gave the call 'Do or Die' (Karo ya Maro). Although Gandhi and top leaders were arrested immediately, a massive, leaderless countrywide rebellion broke out. It featured strikes, sabotage of railway lines and communication wires, and clashes with police, which the British suppressed violently."
+    }
+]
