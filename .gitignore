@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+results_ncert/
+ncert_history_lora_adapter/
+*.log
